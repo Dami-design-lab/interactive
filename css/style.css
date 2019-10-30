@@ -1,0 +1,11 @@
+#labels text {
+  pointer-events: none; /* Prevents mouse events on the labels */
+}
+
+#nodes g {
+  transition: 0.3s ease opacity;
+}
+
+#nodes g:hover {
+  cursor: pointer; /* When hovering the SVG group, the appropriate cursor will appear to highlight interactivity */
+}
